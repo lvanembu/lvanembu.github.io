@@ -486,7 +486,7 @@ h1 {
   align-items: start;
 }
 .figs-1 {
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 760px);
 }
 .figs-2 {
   grid-template-columns: repeat(2, 1fr);

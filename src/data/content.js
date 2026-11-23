@@ -162,11 +162,16 @@ export const sheets = [
       ["Stations owned", "2"],
       ["Line phase", "Production ramp"],
     ],
-    note: "Production figures and images are left out to respect Base Power's confidentiality.",
+    note: "Production figures and photos of my stations are left out to respect Base Power's confidentiality.",
     tools: ["SolidWorks", "MES", "8020 extrusion", "Hipot test"],
     intro:
       "Base Power builds home battery systems. I worked on the battery module and inverter lines while they ramped production. My largest project was the non-conforming material (NCM) cell, the place where every unit that fails off the line goes to be diagnosed, recovered or scrapped.",
     sections: [
+      {
+        figures: [
+          { view: "A", src: img("lv03-a-production-floor.webp"), caption: "Base Power production floor (press photo; my stations are not shown)." },
+        ],
+      },
       {
         heading: "NCM cell",
         bullets: [
