@@ -66,8 +66,8 @@ export const sheets = [
           "Simplified chain tensioning by moving to turnbuckles.",
         ],
         figures: [
-          { view: "C", src: img("lv01-c-diff-on-car.jpg"), caption: "Differential and center mount on the car." },
-          { view: "D", src: img("lv01-d-diff-cad.jpg"), caption: "Differential assembly in CAD: center mounts, turnbuckle tensioners and chain guard." },
+          { view: "C", src: img("lv01-c-diff-on-car.jpg"), caption: "VU17: differential and center mount on the car." },
+          { view: "D", src: img("lv01-d-diff-cad.jpg"), caption: "VU18: differential assembly in CAD, with center mounts, turnbuckle tensioners and chain guard." },
           { view: "E", src: img("lv01-e-mount-stress.jpg"), caption: "Starboard center mount, von Mises stress in Ansys Mechanical." },
         ],
       },
