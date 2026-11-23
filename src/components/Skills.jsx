@@ -28,7 +28,7 @@ export default function Skills() {
       </div>
 
       <footer className="wrap footer" id="contact">
-        <p className="mono kicker">Available full-time, June 2027</p>
+        <p className="mono kicker">Available {profile.available.replace(/^F/, "f")}</p>
         <p className="footer-links">
           <a href={`mailto:${profile.email}`}>{profile.email}</a>
           <span aria-hidden="true">·</span>

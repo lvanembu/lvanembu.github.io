@@ -10,13 +10,17 @@ export const profile = {
   linkedinLabel: "linkedin.com/in/lukevanemburgh",
   portfolioPdf: "Luke_VanEmburgh_Portfolio.pdf",
   resume: "resume.pdf",
-  heroImage: { src: "img/hero-car.jpg", caption: "FIG. 0 Villanova Formula SAE (NovaRacing)." },
+  heroImage: {
+    src: "img/hero-cars-sunset.webp",
+    label: "FIG. 0",
+    caption: "Villanova Formula SAE (NovaRacing).",
+  },
+  available: "Full-time, May 2027",
   facts: [
     { label: "Degree", value: "BS Mechanical Eng." },
     { label: "Concentration", value: "Dynamic Systems" },
     { label: "Minors", value: "Aero · Mechatronics · Business" },
     { label: "GPA", value: "3.84 / 4.0" },
-    { label: "Available", value: "Full-time, June 2027" },
   ],
 };
 
@@ -159,7 +163,7 @@ export const sheets = [
       ["Line phase", "Production ramp"],
     ],
     note: "Production figures and images are left out to respect Base Power's confidentiality.",
-    tools: ["SolidWorks", "MES", "8020 extrusion", "Python / OpenCV", "Hipot test"],
+    tools: ["SolidWorks", "MES", "8020 extrusion", "Hipot test"],
     intro:
       "Base Power builds home battery systems. I worked on the battery module and inverter lines while they ramped production. My largest project was the non-conforming material (NCM) cell, the place where every unit that fails off the line goes to be diagnosed, recovered or scrapped.",
     sections: [
@@ -190,7 +194,7 @@ export const sheets = [
       ["Resonator 2 target", "734 Hz"],
       ["Basis", "R6 at ~11,000 rpm"],
     ],
-    note: "This design was simulated, not built. The team ran a different muffler that was ready first.",
+    note: "A simulation study: the design was developed and evaluated in Ansys and has not been manufactured.",
     tools: ["Ansys Harmonic Acoustics", "Ricardo WAVE", "MATLAB", "SolidWorks"],
     intro:
       "FSAE cars must pass a sound test. I designed a muffler with two Helmholtz resonators tuned to the R6's firing frequency and its second harmonic, combined with a perforated tube and fiberglass absorption, then built the acoustic simulation to predict transmission loss.",

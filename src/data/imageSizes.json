@@ -1,0 +1,82 @@
+{
+ "img/hero-cars-sunset.webp": [
+  2000,
+  1333
+ ],
+ "img/lv01-a-downshift-motec.jpg": [
+  1600,
+  777
+ ],
+ "img/lv01-b-gsc-timing.jpg": [
+  1353,
+  791
+ ],
+ "img/lv01-c-diff-on-car.jpg": [
+  1206,
+  844
+ ],
+ "img/lv01-d-diff-cad.jpg": [
+  1600,
+  854
+ ],
+ "img/lv01-e-mount-stress.jpg": [
+  1400,
+  661
+ ],
+ "img/lv01-f-laptime-fdr.jpg": [
+  1377,
+  645
+ ],
+ "img/lv01-g-tractive-force.jpg": [
+  1332,
+  1132
+ ],
+ "img/lv01-h-power-by-gear.jpg": [
+  1400,
+  809
+ ],
+ "img/lv02-a-pathlines.jpg": [
+  1400,
+  788
+ ],
+ "img/lv02-b-cp.jpg": [
+  1400,
+  788
+ ],
+ "img/lv02-c-downforce-split.jpg": [
+  1400,
+  700
+ ],
+ "img/lv02-d-convergence.jpg": [
+  1400,
+  788
+ ],
+ "img/lv02-e-layup.jpg": [
+  1050,
+  1400
+ ],
+ "img/lv02-f-wing-element.jpg": [
+  1400,
+  1050
+ ],
+ "img/lv02-g-rear-wing.jpg": [
+  1251,
+  529
+ ],
+ "img/lv04-a-muffler-model.jpg": [
+  1400,
+  1050
+ ],
+ "img/lv04-b-transmission-loss.jpg": [
+  1400,
+  1050
+ ],
+ "img/lv05-a-test-rig.jpg": [
+  1050,
+  1400
+ ],
+ "img/lv05-b-cad.jpg": [
+  1008,
+  713
+ ]
+}
