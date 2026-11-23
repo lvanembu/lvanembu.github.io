@@ -104,7 +104,7 @@ export const sheets = [
     note: "All forces are from CFD on one mesh at one speed and have not yet been confirmed on track.",
     tools: ["nTop", "SolidWorks", "SpaceClaim", "Ansys Fluent", "PyFluent (PyAnsys)", "Python", "SQLite"],
     intro:
-      "Hand-running each CFD case was the bottleneck: every geometry change meant re-exporting, re-meshing and re-solving by hand. I built the rear wing as a parametric nTop model (five elements, 31 inputs) and the body and undertray in SolidWorks; the front wing was modeled in nTop to my design. I connected the package to scripted geometry checks, meshing and solving, so a design variant runs from a parameter change to forces with no hand steps. AI agents write the scripts and run the queue under my direction. I set the geometry, choose the studies, approve every solver-setup change and review the results.",
+      "All of my aero design work is for the VU18 car. Hand-running each CFD case was the bottleneck: every geometry change meant re-exporting, re-meshing and re-solving by hand. I built the rear wing as a parametric nTop model (five elements, 31 inputs) and the body and undertray in SolidWorks; the front wing was modeled in nTop to my design. I connected the package to scripted geometry checks, meshing and solving, so a design variant runs from a parameter change to forces with no hand steps. AI agents write the scripts and run the queue under my direction. I set the geometry, choose the studies, approve every solver-setup change and review the results.",
     pipeline: {
       steps: [
         ["Geometry", "nTop wings exported headless; SolidWorks body and undertray as Parasolid"],
@@ -117,15 +117,25 @@ export const sheets = [
     },
     sections: [
       {
+        heading: "Parametric geometry",
+        bullets: [
+          "VU18 rear wing as a parametric nTop model: five elements driven by 31 inputs, rebuilt headless in about 10 minutes for each variant.",
+        ],
         figures: [
-          { view: "A", src: img("lv02-a-pathlines.jpg"), caption: "Full-car pathlines colored by velocity, from an earlier car iteration (Fluent 2025 R2)." },
-          { view: "B", src: img("lv02-b-cp.jpg"), caption: "Centerline pressure coefficient." },
+          { view: "A", src: img("lv02-g-rear-wing.jpg"), caption: "VU18 multi-element rear wing, nTop parametric model." },
+        ],
+      },
+      {
+        heading: "Flow results",
+        figures: [
+          { view: "B", src: img("lv02-a-pathlines.jpg"), caption: "Full-car pathlines colored by velocity, from an earlier car iteration (Fluent 2025 R2)." },
+          { view: "C", src: img("lv02-b-cp.jpg"), caption: "Centerline pressure coefficient." },
         ],
       },
       {
         heading: "What the loop has found",
         bullets: [
-          "Reducing the rear wing's spanwise drop re-attached its main element on the car: +21 N of rear-wing downforce and −5 N of drag. That wing became the baseline.",
+          "Reducing the rear wing's spanwise drop re-attached its main element on the VU18 car: +21 N of rear-wing downforce and −5 N of drag. That wing became the baseline.",
           "The same data predicts a stall on the rear wing's upper front element, which is the current study.",
           "229 cases across 133 studies so far, wing-alone and full-car. On the wing-alone tier, mesh sensitivity kept forces within about 1–2%.",
           "Every result is stored against content hashes of its geometry and solver settings, so each number traces back to its exact inputs.",
@@ -139,16 +149,18 @@ export const sheets = [
           "Forces settle within 3,800 iterations. Reported values are the mean of iterations 3,001 to 3,800, steady to within 1 N.",
         ],
         figures: [
-          { view: "C", src: img("lv02-c-downforce-split.jpg"), caption: "Downforce by component." },
-          { view: "D", src: img("lv02-d-convergence.jpg"), caption: "Force convergence." },
+          { view: "D", src: img("lv02-c-downforce-split.jpg"), caption: "VU18 downforce by component." },
+          { view: "E", src: img("lv02-d-convergence.jpg"), caption: "VU18 baseline force convergence." },
         ],
       },
       {
-        heading: "Build",
+        heading: "VU17 build (earlier car)",
+        bullets: [
+          "Hands-on composites work on the VU17 car's aero package, separate from my VU18 design work: layup and post-processing of carbon fiber wing elements.",
+        ],
         figures: [
-          { view: "E", src: img("lv02-e-layup.jpg"), caption: "Team layup of a carbon fiber wing element. I helped with the layups." },
-          { view: "F", src: img("lv02-f-wing-element.jpg"), caption: "Finished wing element. I did much of the post-processing." },
-          { view: "G", src: img("lv02-g-rear-wing.jpg"), caption: "Multi-element rear wing model." },
+          { view: "F", src: img("lv02-e-layup.jpg"), caption: "VU17: team layup of a carbon fiber wing element. I helped with the layups." },
+          { view: "G", src: img("lv02-f-wing-element.jpg"), caption: "VU17: finished wing element. I did much of the post-processing." },
         ],
       },
     ],
