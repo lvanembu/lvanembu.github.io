@@ -1,4 +1,4 @@
-// All site content lives here. Mirrors Luke_VanEmburgh_Portfolio.pdf (Nov 2026).
+// All site content lives here. Based on Luke_VanEmburgh_Portfolio.pdf (Nov 2026); LV-02 revised after Skipper's fact-check.
 
 export const profile = {
   kicker: "Mechanical Engineering · Villanova University · May 2027",
@@ -8,7 +8,6 @@ export const profile = {
   email: "lvanemburgh1@gmail.com",
   linkedin: "https://linkedin.com/in/lukevanemburgh",
   linkedinLabel: "linkedin.com/in/lukevanemburgh",
-  portfolioPdf: "Luke_VanEmburgh_Portfolio.pdf",
   resume: "resume.pdf",
   heroImage: {
     src: "img/hero-cars-sunset.webp",

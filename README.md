@@ -4,7 +4,7 @@ Personal engineering portfolio site, built with React + Vite and deployed to Git
 
 ## Editing content
 
-All text lives in [`src/data/content.js`](src/data/content.js). Figures are in `public/img/`, and the resume and PDF portfolio are in `public/`.
+All text lives in [`src/data/content.js`](src/data/content.js). Figures are in `public/img/`, and the resume is in `public/`.
 
 ## Local development
 

@@ -11,9 +11,7 @@ export default function Hero({ onOpen }) {
           <p className="lede">{profile.summary}</p>
           <div className="hero-links">
             <a className="btn btn-primary" href="#LV-01">View work</a>
-            <a className="btn" href={profile.resume} target="_blank" rel="noreferrer">Resume</a>
-            <a className="btn" href={profile.portfolioPdf} download>PDF portfolio</a>
-          </div>
+            <a className="btn" href={profile.resume} target="_blank" rel="noreferrer">Resume</a>          </div>
           <p className="hero-contact">
             <a href={`mailto:${profile.email}`}>{profile.email}</a>
             <span aria-hidden="true">·</span>

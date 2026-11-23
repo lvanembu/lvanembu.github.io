@@ -34,10 +34,7 @@ export default function Skills() {
           <span aria-hidden="true">·</span>
           <a href={profile.linkedin} target="_blank" rel="noreferrer">{profile.linkedinLabel}</a>
           <span aria-hidden="true">·</span>
-          <a href={profile.resume} target="_blank" rel="noreferrer">Resume</a>
-          <span aria-hidden="true">·</span>
-          <a href={profile.portfolioPdf} download>PDF portfolio</a>
-        </p>
+          <a href={profile.resume} target="_blank" rel="noreferrer">Resume</a>        </p>
       </footer>
     </section>
   );
