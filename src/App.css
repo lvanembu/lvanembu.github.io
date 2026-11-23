@@ -320,11 +320,12 @@ h1 {
   font-weight: 500;
   color: var(--sub);
   padding-right: 16px;
+  width: 52%;
 }
 .specs td {
   text-align: right;
   font-weight: 600;
-  white-space: nowrap;
+  text-wrap: balance;
 }
 .specs tr:first-child th,
 .specs tr:first-child td {
