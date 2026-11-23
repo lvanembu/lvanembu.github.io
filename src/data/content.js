@@ -68,7 +68,7 @@ export const sheets = [
         figures: [
           { view: "C", src: img("lv01-c-diff-on-car.jpg"), caption: "VU17: differential and center mount on the car." },
           { view: "D", src: img("lv01-d-diff-cad.jpg"), caption: "VU18: differential assembly in CAD, with center mounts, turnbuckle tensioners and chain guard." },
-          { view: "E", src: img("lv01-e-mount-stress.jpg"), caption: "Starboard center mount, von Mises stress in Ansys Mechanical." },
+          { view: "E", src: img("lv01-e-mount-stress.jpg"), caption: "VU18: starboard center mount, von Mises stress in Ansys Mechanical." },
         ],
       },
       {
